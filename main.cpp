@@ -52,85 +52,102 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:       pirate
+//  action 1:   the pirate drinks rum
+pirate.drinkRum();
+//  action 2:   the pirate loots a ship
+pirate.lootShip();
+//  action 3:   the pirate tells a tale
+pirate.tellTale();
 
-//  action 2:
-
-//  action 3:
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:       campfire
+//  action 1:   the campfire pops
+campfire.pop();
+//  action 2:   the campfire smokes
+campfire.smoke();
+//  action 3:   the campfire dies out
+campfire.dieOut();
 
-//  action 2:
-
-//  action 3:
 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun:       printer
+//  action 1:   the printer jams
+printer.jam();
+//  action 2:   the printer alerts it needs more ink
+printer.lowInkAlert();
+//  action 3:   the printer sucks in paper
+printer.drawPaper();
 
-//  action 2:
-
-//  action 3:
 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun:       microwave
+//  action 1:   the microwave heats up
+microwave.heatUp();
+//  action 2:   the microwave beeps when it's done
+microwave.beep();
+//  action 3:   the microwave rotates the tray
+microwave.rotateTray();
 
-//  action 2:
-
-//  action 3:
 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       haunted house
+//  action 1:   the haunted house rattles
+hauntedHouse.rattle();
+//  action 2:   the haunted house locks it's doors
+hauntedHouse.lockDoors();
+//  action 3:   the haunted house turns on it's victrola
+hauntedHouse.turnVictrola();
 
-//  action 2:
-
-//  action 3:
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       airplane
+//  action 1:   the airplane takes off
+airplane.takeOff();
+//  action 2:   the airplane serves dinner
+airplane.serveDinner();
+//  action 3:   the airplane explodes
+airplane.explode();
 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun:       baked potato
+//  action 1:   the baked potato steams
+bakedPotato.steam();
+//  action 2:   the baked potato leaks butter
+bakedPotato.leakButter();
+//  action 3:   the baked potato also explodes
+bakedPotato.explode();
 
-//  action 2:
-
-//  action 3:
 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun:       fighter jet
+//  action 1:   the fighter jet takes off
+fighterJet.takeOff();
+//  action 2:   the fighter jet speeds up
+fighterJet.speedUp();
+//  action 3:   the fighter jet fires missiles
+fighterJet.fireMissiles();
 
-//  action 2:
-
-//  action 3:
 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun:       whaling ship
+//  action 1:   the whaling ship sets sail
+whalingShip.setSail();
+//  action 2:   the whaling ship launches it's whaleboats
+whalingShip.launchWhaleBoats();
+//  action 3:   the whaling ship processes a whale
+whalingShip.processWhale();
 
-//  action 2:
-
-//  action 3:
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       long jumper
+//  action 1:   the long jumper runs
+longJumper.run();
+//  action 2:   the long jumper leaps
+longJumper.leap();
+//  action 3:   the long jumper also explodes
+longJumper.explode();
 
 
 #endif
@@ -138,11 +155,13 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +169,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
