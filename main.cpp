@@ -121,13 +121,13 @@ bakedPotato.explode();
 
 
 //  8)
-//  Noun:       grandpa
-//  action 1:   the grandpa falls asleep
-grandpa.fallAsleep();
-//  action 2:   the grandpa turns off his hearing aids
-grandpa.turnOffHearingAids();
-//  action 3:   the grandpa goes fishing
-grandpa.goFishing();
+//  Noun:       fighter jet
+//  action 1:   the fighter jet takes off
+fighterJet.takeOff();
+//  action 2:   the fighter jet speeds up
+fighterJet.speedUp();
+//  action 3:   the fighter jet fires missiles
+fighterJet.fireMissiles();
 
 
 //  9)
